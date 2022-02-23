@@ -11,6 +11,7 @@ defaults: &defaults
     - image: circleci/node:12-stretch
 
 
+
 only-deploy-trunk: &only-deploy-trunk
   filters:
     branches:
